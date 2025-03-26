@@ -14,7 +14,7 @@ export const createProducts = async(req, res) =>{
     // put in the product body that we got from the user 
     const newProduct = new Product(product);
     
-    // save the dta in the database
+    // save the data in the database
     try {
         await newProduct.save();
         res.status(201).json({success: true, product: newProduct});

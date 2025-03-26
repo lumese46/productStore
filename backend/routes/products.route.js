@@ -4,6 +4,7 @@ import { createProducts } from '../controllers/products.controller.js';
 import { getProducts } from '../controllers/products.controller.js';
 import { deleteProduct } from '../controllers/products.controller.js';
 import { updateProduct } from '../controllers/products.controller.js';
+
 const router = express.Router();
 
 // routes for post request
